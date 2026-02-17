@@ -89,9 +89,9 @@ section h3 {
 }
 
 .participants ul {
-  list-style: disc inside;
+  list-style: none;
   margin: 0;
-  padding-left: 16px;
+  padding-left: 0;
 }
 
 .participants li {
@@ -102,6 +102,27 @@ section h3 {
   border: 1px solid #e6eefc;
   color: #0b3a66;
   font-size: 14px;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  padding: 2px 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-participant:hover {
+  background-color: rgba(198,40,40,0.08);
+}
+
+.participant-email {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .participants.empty {
